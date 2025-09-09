@@ -1,0 +1,134 @@
+{
+  "tests": [
+    {
+      "name": "Test123",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "1\r\n2\r\n3",
+      "output": "3.*2.*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test132",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "1\r\n3\r\n2",
+      "output": "3.*2.*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test213",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "2\r\n1\r\n3",
+      "output": "3.*2.*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test231",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "2\r\n3\r\n1",
+      "output": "3.*2.*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test312",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "3\r\n1\r\n2",
+      "output": "3.*2.*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test321",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "3\r\n2\r\n1",
+      "output": "3.*2.*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test445",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "4\r\n4\r\n5",
+      "output": "5.*4.*4",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test454",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "4\r\n5\r\n4",
+      "output": "5.*4.*4",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test455",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "4\r\n5\r\n5",
+      "output": "5.*5.*4",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test544",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "5\r\n4\r\n4",
+      "output": "5.*4.*4",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test545",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "5\r\n4\r\n5",
+      "output": "5.*5.*4",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test554",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "5\r\n5\r\n4",
+      "output": "5.*5.*4",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test666",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 ordenar3.py",
+      "input": "6\r\n6\r\n6",
+      "output": "6.*6.*6",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
