@@ -31,3 +31,20 @@ Completa este y el resto de los ejercicios y compila, para cada ejercicio, el en
 
 ## Rúbrica
 Verifica tu entrega contra la rúbrica disponible en Canvas para maximizar tu calificación.
+
+Si el num1 es mayor a num2
+num1 = segudno
+  si num1 mayor a num3
+  num1 = tercer
+    si num2 mayor a num3
+    num2 = segundo
+    num3 = primero
+      no
+      num2 = primero
+      num3 = segundo
+sino num2 mayor num3 
+  num2 = tercer
+  num3 = segundo
+  si num3 menor num1
+  num3 = primer
+  num1 = segundo
