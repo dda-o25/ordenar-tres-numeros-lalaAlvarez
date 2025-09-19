@@ -15,23 +15,23 @@ tercero = 0
 if numero1 > numero2:
     segundo = numero1
     if numero1 > numero3:
-        tercero = numero1
+        primero = numero1
         if numero2 > numero3:
-            primero = numero3
+            tercero = numero3
             segundo = numero2
         else:
-            primero = numero2
+            tercero = numero2
             segundo = numero3
 elif numero2 > numero3:
-    tercero = numero2
+    primero = numero2
     segundo = numero3
     if numero3 < numero1:
-        primero = numero3
+        tercero = numero3
         segundo = numero1
 else:
-    primero = numero1
+    tercero = numero1
     segundo = numero2
-    tercero = numero3
+    primero = numero3
 
 
 
