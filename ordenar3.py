@@ -42,4 +42,4 @@ else:
 
 
 # Salidas
-print(str(primero) + ".*" + str(segundo) + ".*" + str(tercero))
+print("Números ordenados: " + str(primero) + " " + str(segundo) + " " + str(tercero))
