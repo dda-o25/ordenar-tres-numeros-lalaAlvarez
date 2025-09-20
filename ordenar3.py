@@ -39,11 +39,5 @@ else:
             segundo = numero2
             tercero = numero1
 
-
-
-
-
 # Salidas
-print(primero)
-print(segundo)
-print(tercero)
+print("Números ordenados: " + str(primero) + " " + str(segundo) + " " + str(tercero))
